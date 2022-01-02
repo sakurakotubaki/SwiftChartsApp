@@ -37,6 +37,45 @@
             </objects>
             <point key="canvasLocation" x="868" y="84"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Wrd-Gd-Meu">
+            <objects>
+                <navigationController id="Jay-g7-dFh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eys-jG-XLL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lOt-gg-tWn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="594" y="779"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pq8-eb-LGz">
+            <objects>
+                <navigationController id="Z0A-Ua-3QW" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9fW-YN-GRH">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y6z-K5-JWJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="594" y="779"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VMu-h0-5Jc">
+            <objects>
+                <navigationController id="G46-c9-qdI" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EFJ-dK-RzS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fm2-nw-bob" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="594" y="779"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
