@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		62ABBAAC303A12624337F548 /* Pods_MyGraphs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02026E34A6F3DC34F1D3FD03 /* Pods_MyGraphs.framework */; };
+		B37740BD2781C7100021868D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37740BC2781C7100021868D /* SecondViewController.swift */; };
 		B37E01D52781C0C10069AB9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E01D42781C0C10069AB9C /* AppDelegate.swift */; };
 		B37E01D72781C0C10069AB9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E01D62781C0C10069AB9C /* SceneDelegate.swift */; };
 		B37E01D92781C0C10069AB9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E01D82781C0C10069AB9C /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		02026E34A6F3DC34F1D3FD03 /* Pods_MyGraphs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGraphs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B8833FF2A5302A861002A03 /* Pods-MyGraphs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGraphs.debug.xcconfig"; path = "Target Support Files/Pods-MyGraphs/Pods-MyGraphs.debug.xcconfig"; sourceTree = "<group>"; };
+		B37740BC2781C7100021868D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B37E01D12781C0C10069AB9C /* MyGraphs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGraphs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37E01D42781C0C10069AB9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B37E01D62781C0C10069AB9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				6B8833FF2A5302A861002A03 /* Pods-MyGraphs.debug.xcconfig */,
 				DC542BDF7CE1E0138DCF7B34 /* Pods-MyGraphs.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +81,7 @@
 				B37E01DD2781C0C20069AB9C /* Assets.xcassets */,
 				B37E01DF2781C0C20069AB9C /* LaunchScreen.storyboard */,
 				B37E01E22781C0C20069AB9C /* Info.plist */,
+				B37740BC2781C7100021868D /* SecondViewController.swift */,
 			);
 			path = MyGraphs;
 			sourceTree = "<group>";
@@ -207,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37740BD2781C7100021868D /* SecondViewController.swift in Sources */,
 				B37E01D92781C0C10069AB9C /* ViewController.swift in Sources */,
 				B37E01D52781C0C10069AB9C /* AppDelegate.swift in Sources */,
 				B37E01D72781C0C10069AB9C /* SceneDelegate.swift in Sources */,

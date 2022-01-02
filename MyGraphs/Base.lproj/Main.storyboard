@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JxK-ZE-yl4">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -47,9 +47,10 @@
             <objects>
                 <navigationController id="Jay-g7-dFh" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="I3c-8u-d9O"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eys-jG-XLL">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="eys-jG-XLL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="yFE-6s-ie6" kind="relationship" relationship="rootViewController" id="bXL-9g-Pcm"/>
@@ -59,17 +60,17 @@
             </objects>
             <point key="canvasLocation" x="594" y="779"/>
         </scene>
-        <!--View Controller-->
+        <!--Bar-->
         <scene sceneID="XBm-8g-yFI">
             <objects>
-                <viewController id="yFE-6s-ie6" sceneMemberID="viewController">
+                <viewController id="yFE-6s-ie6" customClass="ViewController" customModule="MyGraphs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K8U-uP-TBE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="KBB-Iq-anY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="22l-DH-s97"/>
+                    <navigationItem key="navigationItem" title="Bar" id="22l-DH-s97"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NKN-kr-kXC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,9 +81,10 @@
             <objects>
                 <navigationController id="Z0A-Ua-3QW" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="sa2-HH-Yg2"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9fW-YN-GRH">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="9fW-YN-GRH">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="evb-0q-MuM" kind="relationship" relationship="rootViewController" id="R8P-xb-L8B"/>
@@ -97,9 +99,10 @@
             <objects>
                 <navigationController id="G46-c9-qdI" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="eyw-ey-trY"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EFJ-dK-RzS">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="EFJ-dK-RzS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="eIQ-M2-eIQ" kind="relationship" relationship="rootViewController" id="tad-Ml-Sg6"/>
@@ -109,7 +112,7 @@
             </objects>
             <point key="canvasLocation" x="2239" y="779"/>
         </scene>
-        <!--View Controller-->
+        <!--Pie-->
         <scene sceneID="BrC-qO-Wk4">
             <objects>
                 <viewController id="eIQ-M2-eIQ" sceneMemberID="viewController">
@@ -119,13 +122,13 @@
                         <viewLayoutGuide key="safeArea" id="bXI-So-Rto"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="qcf-gu-zVQ"/>
+                    <navigationItem key="navigationItem" title="Pie" id="qcf-gu-zVQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T63-FU-f3O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2238" y="1473"/>
         </scene>
-        <!--View Controller-->
+        <!--Line-->
         <scene sceneID="K5D-zw-3xL">
             <objects>
                 <viewController id="evb-0q-MuM" sceneMemberID="viewController">
@@ -135,7 +138,7 @@
                         <viewLayoutGuide key="safeArea" id="WqB-t9-GXu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Qtx-9a-Ofj"/>
+                    <navigationItem key="navigationItem" title="Line" id="Qtx-9a-Ofj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jfq-HP-0cf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
