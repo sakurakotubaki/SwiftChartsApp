@@ -115,7 +115,7 @@
         <!--Pie-->
         <scene sceneID="BrC-qO-Wk4">
             <objects>
-                <viewController id="eIQ-M2-eIQ" sceneMemberID="viewController">
+                <viewController id="eIQ-M2-eIQ" customClass="ThirdViewController" customModule="MyGraphs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cFY-VX-ZBG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -131,7 +131,7 @@
         <!--Line-->
         <scene sceneID="K5D-zw-3xL">
             <objects>
-                <viewController id="evb-0q-MuM" sceneMemberID="viewController">
+                <viewController id="evb-0q-MuM" customClass="SecondViewController" customModule="MyGraphs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZTa-pq-153">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
